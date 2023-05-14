@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#142129"
+    tools:context=".about">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="376dp"
+        android:layout_height="490dp"
+        android:text="The Plant Pathometry
+Detection is aiming to
+provide the farmers with an
+application to identify the
+problem with their crops
+immediately and provide
+them with a solution for
+their problem also give
+them a marketplace to
+purchase the necessary
+chemicals to act as soon
+as possible against the
+disease I their crops."
+        android:textAlignment="center"
+        android:textColor="#f7f8f9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="134dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="202dp"
+        app:srcCompat="@drawable/bgolog"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+
+
+</RelativeLayout>

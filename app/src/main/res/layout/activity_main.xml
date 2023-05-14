@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#142129"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+
+
+
+    >
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="360dp"
+        android:layout_height="500dp"
+
+
+        android:layout_centerInParent="true"
+        android:background="#bedeef">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:background="#02BE8A"
+            android:text="Scan"
+            android:textColor="#344450"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="25dp"
+            android:background="#02BE8A"
+            android:text="About"
+            android:textColor="#344450"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="250dp"
+            android:background="#02BE8A"
+            android:text="News Letter"
+            android:textColor="#344450"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="250dp"
+            android:background="#02BE8A"
+            android:text="Shop"
+            android:textColor="#344450"
+            android:textSize="25sp" />
+    </com.google.android.material.navigation.NavigationView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="97dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        app:srcCompat="@drawable/bgolog" />
+
+</RelativeLayout>
